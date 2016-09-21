@@ -11,63 +11,69 @@
 	<title>RPi Home Hub v0.1</title>
 </head>
 <body>
-	<div class="col-md-2 col-sm-2 text-center">
-		<div id="currTime"></div>
-		<div id="showerthoughts">
-			<h3>/r/showerthoughts</h3>
-			<p>
-				<?php echo file_get_contents("topSubPost.txt"); ?>
-			</p>
-		</div>
+	<div class="col-md-4 col-sm-4 text-center" id="currTime"></div>
+	<div class="col-md-4 col-sm-4" id="showerthoughts" style="height: 225px; width: 310px;">
+		<h3>/r/showerthoughts</h3>
+		<p id="shower_body" style="overflow: hidden;">
+			<?php echo file_get_contents("topSubPost.txt"); ?>
+		</p>
 	</div>
 
-	<div class="col-md-4 col-sm-4" id="timetables">
-		<h4 id="calTitle"></h4>
-		<img src="images/cal/Kevin.png" width="700px">
-		<img src="images/cal/Elias.png" width="700px">
-		<img src="images/cal/August.png" width="700px">
-		<img src="images/cal/Nora.png" width="700px">
-	</div>
-
-	<div class="col-md-3 col-sm-3 text-center weatherReport" style="margin-top: -40px;">
+	<div class="col-md-4 col-sm-4 text-center weatherReport" style="margin-top: -40px;">
 		<div>
 			<e id="weatherImg"></e>
 		</div>
 		<p id="weatherTempValue"></p>
 		<p id="weatherRainfall"></p>
 		<p id="weatherWind"></p>
-		<p id="weatherWindDirection"></p>
+	</div>
+
+	<div class="col-md-12 col-sm-12" id="timetables">
+		<h4 id="calTitle"></h4>
+		<img src="images/Kevin.png" width="800px">
+		<img src="images/Elias.png" width="800px">
+		<img src="images/August.png" width="800px">
+		<img src="images/Nora.png" width="800px">
+		<img src="images/Inge.png" width="800px">
 	</div>
 
 	<div class="clearfix"></div>
 
-	<div class="col-md-2 col-sm-2">
-		<h4 id="twitterTitle">@Politiet</h4>
+	<div class="col-md-4 col-sm-4">
+		<h4 id="twitterTitle">@Elon Musk</h4>
 		<div class="twitterFeed">
 			<a class="twitter-timeline"
 			  data-widget-id="685044306260918273"
 			  href="https://twitter.com/TwitterDev"
 			  data-chrome="nofooter noborders noheader transparent"
-			  height="300">
-			Tweets by @Pooooolis
+			  height="450">
+			Tweets by @ElonMusk
 			</a>
 		</div>
 	</div>
+<!--
+	<div class="col-md-8 col sm-8">
+		<div class="col-md-6 col-sm-6" style="height: 200px;">
+			<h3 id="rssTitle">Siste fra ap.no</h3>
+			<span id="rssFeed">
+				<?php include 'phpFiles/apRss.php' ?>
+			</span>
+		</div>
 
-	<div class="col-md-3 col-sm-3">
-		<h3 id="rssTitle">Siste fra ap.no</h3>
-		<span id="rssFeed">
-			<?php include 'phpFiles/apRss.php' ?>
-		</span>
+		<div class="col-md-6 col-sm-6" style="height: 400px;">
+			<h3 id="rssTitle">Siste fra db.no</h3>
+			<span id="rssFeed">
+				<?php include 'phpFiles/dbRss.php' ?>
+			</span>
+		</div>
+		<div class="col-offset-md-6 col-md-6 col-offset-sm-6 col-sm-6">
+			<iframe width="1280" height="720" src="https://www.youtube.com/embed/Gy5PC5Auoak?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1" frameborder="0" allowfullscreen></iframe>
+		</div>
 	</div>
-
-	<div class="col-md-3 col-sm-3">
-		<h3 id="rssTitle">Siste fra db.no</h3>
-		<span id="rssFeed">
-			<?php include 'phpFiles/dbRss.php' ?>
-		</span>
+-->
+	<div class="col-md-8 col-sm-8">
+		<iframe width="600" height="335" src="https://www.youtube.com/embed/njCDZWTI-xg?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1" frameborder="0" allowfullscreen></iframe>
 	</div>
-
 	<script>window.twttr = (function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0],
 		    t = window.twttr || {};
@@ -89,6 +95,7 @@
 	<script src="scripts/cycleTimeplaner.js"></script>
 	<script src="scripts/3minReload.js"></script>
 	<script src="scripts/addWeatherInfo.js"></script>
+	<script src="scripts/textFill.js"></scripts>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
