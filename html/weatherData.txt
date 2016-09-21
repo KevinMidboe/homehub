@@ -1,0 +1,7 @@
+day
+Snow.png
+-6
+0.4 - 0.7 mm
+Gentle breeze
+6 m/s
+northeast
