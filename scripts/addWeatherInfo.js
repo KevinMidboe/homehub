@@ -8,8 +8,8 @@ $.get('weatherData.txt', function(data) {
 	elem.setAttribute("alt", weatherData[1]);
 	document.getElementById("weatherImg").appendChild(elem);
 
-	document.getElementById("weatherTempValue").innerHTML = "<p class='weatherTitle' style='font-size: 30px;'>Temperatur</p><p class='weatherData' style='font-size: 35px;'>" + weatherData[2] + '°</p>';
-	document.getElementById("weatherRainfall").innerHTML = "<p class='weatherTitle'>Nedbør</p><p class='weatherData'>" + weatherData[3] + '</p>';
+	document.getElementById("weatherTempValue").innerHTML = "<p class='weatherTitle' style='font-size: 30px;'>Temperatur" + weatherData[2] + '°</p>';
+	document.getElementById("weatherRainfall").innerHTML = "<p class='weatherTitle'>Nedbør" + weatherData[3] + '</p>';
 	document.getElementById("weatherWind").innerHTML = "<p class='weatherTitle'>Vind</p><p class='weatherData'>" + weatherData[5] + '</p>';
 	// document.getElementById("weatherWindDirection").innerHTML = "<p class='weatherTitle'>Vind rettning</p><p class='weatherData'>" + weatherData[6] + '</p>';
 });
