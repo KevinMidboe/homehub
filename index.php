@@ -25,7 +25,6 @@
 		</div>
 		<p id="weatherTempValue"></p>
 		<p id="weatherRainfall"></p>
-		<p id="weatherWind"></p>
 	</div>
 
 	<div class="col-md-12 col-sm-12" id="timetables">
@@ -46,7 +45,7 @@
 			  data-widget-id="685044306260918273"
 			  href="https://twitter.com/TwitterDev"
 			  data-chrome="nofooter noborders noheader transparent"
-			  height="450">
+			  height="350">
 			Tweets by @Politiet
 			</a>
 		</div>
@@ -95,7 +94,7 @@
 	<script src="scripts/cycleTimeplaner.js"></script>
 	<script src="scripts/3minReload.js"></script>
 	<script src="scripts/addWeatherInfo.js"></script>
-	<script src="scripts/textFill.js"></scripts>
+	<script src="scripts/textFill.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
