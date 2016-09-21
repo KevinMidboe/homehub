@@ -11,15 +11,15 @@
 	<title>RPi Home Hub v0.1</title>
 </head>
 <body>
-	<div class="col-md-4 col-sm-4 text-center" id="currTime"></div>
-	<div class="col-md-4 col-sm-4" id="showerthoughts" style="height: 225px; width: 310px;">
+	<div class="col-md-4 col-sm-5 text-center" id="currTime"></div>
+	<div class="col-md-5 col-sm-5" id="showerthoughts" style="height: 225px;">
 		<h3>/r/showerthoughts</h3>
 		<p id="shower_body" style="overflow: hidden;">
 			<?php echo file_get_contents("topSubPost.txt"); ?>
 		</p>
 	</div>
 
-	<div class="col-md-4 col-sm-4 text-center weatherReport" style="margin-top: -40px;">
+	<div class="col-md-3 col-sm-3 text-center weatherReport" style="margin-top: -40px;">
 		<div>
 			<e id="weatherImg"></e>
 		</div>
@@ -45,7 +45,7 @@
 			  data-widget-id="685044306260918273"
 			  href="https://twitter.com/TwitterDev"
 			  data-chrome="nofooter noborders noheader transparent"
-			  height="385">
+			  height="400">
 			Tweets by @Politiet
 			</a>
 		</div>
@@ -71,7 +71,7 @@
 	</div>
 -->
 	<div class="col-md-8 col-sm-8">
-		<iframe width="600" height="335" src="https://www.youtube.com/embed/njCDZWTI-xg?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1" frameborder="0" allowfullscreen></iframe>
+		<iframe width="600" height="400" src="https://www.youtube.com/embed/njCDZWTI-xg?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<script>window.twttr = (function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0],
@@ -99,3 +99,4 @@
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
+
