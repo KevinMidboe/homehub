@@ -40,14 +40,14 @@
 	<div class="clearfix"></div>
 
 	<div class="col-md-4 col-sm-4">
-		<h4 id="twitterTitle">@Elon Musk</h4>
+		<h4 id="twitterTitle">@Politiet</h4>
 		<div class="twitterFeed">
 			<a class="twitter-timeline"
 			  data-widget-id="685044306260918273"
 			  href="https://twitter.com/TwitterDev"
 			  data-chrome="nofooter noborders noheader transparent"
 			  height="450">
-			Tweets by @ElonMusk
+			Tweets by @Politiet
 			</a>
 		</div>
 	</div>
