@@ -45,7 +45,7 @@
 			  data-widget-id="685044306260918273"
 			  href="https://twitter.com/TwitterDev"
 			  data-chrome="nofooter noborders noheader transparent"
-			  height="350">
+			  height="385">
 			Tweets by @Politiet
 			</a>
 		</div>
