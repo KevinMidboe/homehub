@@ -7,6 +7,7 @@ changeBanner();
 		img[0] = timetableImages.getElementsByTagName('img')[0];
 		img[1] = timetableImages.getElementsByTagName('img')[1];
 		img[2] = timetableImages.getElementsByTagName('img')[2];
+		img[3] = timetableImages.getElementsByTagName('img')[3];
 
 		for (var i = 0; i < img.length; i++) {
 			img[i].style.display = 'none';
