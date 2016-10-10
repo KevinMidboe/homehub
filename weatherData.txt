@@ -1,7 +1,7 @@
-day
-Cloudy.png
-19
+night
+Clear sky.png
+5
 0 mm
-Light air
-1 m/s
-west-northwest
+Gentle breeze
+4 m/s
+northeast

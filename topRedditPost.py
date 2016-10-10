@@ -16,7 +16,7 @@ def getShowerThought():
 	for submission in subreddit.get_hot(limit = 5):
 		submissionArray.append(submission.title)
 
-	with open('topSubPost.txt', 'w') as outputFile:
+	with open('/var/www/html/topSubPost.txt', 'w') as outputFile:
 		print(submissionArray[2])
 		outputFile.write(str(submissionArray[2]))
 
@@ -72,7 +72,7 @@ def getWeatherReport():
 	forcastList.insert(0,timeOfDay())
 
 	print(forcastList)
-	with open('weatherData.txt', 'w') as outputFile:
+	with open('/var/www/html/weatherData.txt', 'w') as outputFile:
 		for element in forcastList:
 			outputFile.write(str(element) + '\n')
 

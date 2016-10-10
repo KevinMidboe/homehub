@@ -33,6 +33,7 @@
 		<img src="images/Elias.png" width="800px">
 		<img src="images/August.png" width="800px">
 		<img src="images/Nora.png" width="800px">
+		<img src="images/Inge.png" width="800px">
 	</div>
 
 	<div class="clearfix"></div>
@@ -98,4 +99,5 @@
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
+
 
