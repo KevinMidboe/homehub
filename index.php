@@ -17,7 +17,7 @@
 		<p id="shower_body" style="overflow: hidden;">
 			<?php echo file_get_contents("topSubPost.txt"); ?>
 		</p>
-	</div>
+	</div>x
 
 	<div class="col-md-3 col-sm-3 text-center weatherReport" style="margin-top: -40px;">
 		<div>
@@ -33,7 +33,6 @@
 		<img src="images/Elias.png" width="800px">
 		<img src="images/August.png" width="800px">
 		<img src="images/Nora.png" width="800px">
-		<img src="images/Inge.png" width="800px">
 	</div>
 
 	<div class="clearfix"></div>
@@ -71,7 +70,7 @@
 	</div>
 -->
 	<div class="col-md-8 col-sm-8">
-		<iframe width="600" height="400" src="https://www.youtube.com/embed/njCDZWTI-xg?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1" frameborder="0" allowfullscreen></iframe>
+		<iframe width="680" height="385" src="https://www.youtube.com/embed/UdmHHpAsMVw?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<script>window.twttr = (function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0],
