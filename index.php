@@ -71,7 +71,7 @@
 	</div>
 -->
 	<div class="col-md-8 col-sm-8">
-		<iframe width="630" height="270" src="https://www.youtube.com/embed/UdmHHpAsMVw?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1" frameborder="0" allowfullscreen></iframe>
+		<iframe width="630" height="355" src="https://www.youtube.com/embed/UdmHHpAsMVw?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<script>window.twttr = (function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0],

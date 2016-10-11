@@ -1,7 +1,7 @@
-night
+day
 Clear sky.png
-5
+9
 0 mm
-Gentle breeze
-4 m/s
+Light breeze
+3 m/s
 northeast
