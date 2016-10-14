@@ -5,8 +5,8 @@ import requests
 user_agent = ("topRedditPost pyMachine 0.1")
 submissionArray = []
 
-weatherURL = 'http://www.yr.no/place/Norway/Oslo/Oslo/Ljabru/hour_by_hour.html'
-weatherURL1 = 'http://www.yr.no/place/Norway/Sør-Trøndelag/Trondheim/Utleirvegen/hour_by_hour.html'
+weatherURL = 'http://www.yr.no/place/Norway/Sør-Trøndelag/Trondheim/Utleirvegen/hour_by_hour.html'
+weatherURL1 = 'http://www.yr.no/place/Norway/Oslo/Oslo/Ljabru/hour_by_hour.html'
 stringId = '<meta property="og:description" content="'
 
 def getShowerThought():
